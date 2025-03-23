@@ -76,7 +76,7 @@ if(category==="image"){
 
         // contain.append(image);
         let para = document.createElement("p");
-        para.textContent=data.alt;
+        // para.textContent=data.alt;
         parent.append(image)
         contain.append(parent);
         
@@ -93,7 +93,7 @@ video.controls = true;
 video.src=data.video_files[1].link;
 
 let vpara = document.createElement("p");
-vpara.textContent=data.alt;
+// vpara.textContent=data.alt;
 vidparent.append(video,vpara);
 contain.append(vidparent);
 })

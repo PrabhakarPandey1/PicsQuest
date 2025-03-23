@@ -192,8 +192,8 @@ input[readonly] {
     
     margin-top: 10px;
     width: 24%;
-    height: 600px;
-    background-color: aquamarine;
+    height: 300px;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     img{
