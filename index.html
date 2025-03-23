@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PicsQuest</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-header">
+            <div class="logo">Pics<span>Quest</span></div>
+            <div class="nav-main">
+                <a href="#home">Home</a>
+                <a href="#" class="image-btn">Image</a>
+                <a href="#" class="video-btn">Video</a>
+                <a href="#">About</a>
+                <button class="sign-in-btn">Sign In</button>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <p>Search your Image & Video</p>
+        <div>
+            <input type="text" placeholder="Image,Video">
+            <button class="btn">Search</button>
+            <button class="filter">image</button>
+        </div>
+        
+        <div class="container">
+
+        </div>
+        <div class="about-page">
+            <h1>About PicsQuest</h1>
+            <p>Welcome to <strong>PicsQuest</strong>, your ultimate destination for searching and discovering high-quality images and videos. Our platform allows you to easily find visual content with seamless filtering and pagination features.</p>
+            <h2>Key Features</h2>
+            <ul>
+                <li>Search Images and Videos with Ease</li>
+                <li>Toggle Between Image and Video Content</li>
+                <li>Responsive and User-Friendly Design</li>
+                <li>Seamless Pagination and "See More" Functionality</li>
+                <li>Sign-In Form with Local Storage Capability</li>
+            </ul>
+            <h2>Our Vision</h2>
+            <p>Our vision is to provide a hassle-free and efficient way to explore media content, whether for personal use or creative projects.</p>
+            <a href="#home" class="back-button">Go Back to Home</a>
+        </div>
+        <button class="seeMore">see more</button>
+        <div class="pagination">
+
+        </div>
+
+
+    </div>
+    <div class="form-overlay" id="signInForm">
+        <div class="form-container">
+            <h2>Sign In</h2>
+            <form id="userForm">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" placeholder="Enter Full Name" required>
+                
+                <label for="mobile">Mobile No:</label>
+                <input type="tel" id="mobile" placeholder="Enter Mobile No" required>
+                
+                <label for="currentDate">Current Date:</label>
+                <input type="text" id="currentDate" readonly>
+                
+                <button type="submit">Submit</button>
+                <button type="button" class="close-btn">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
